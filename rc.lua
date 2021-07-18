@@ -464,7 +464,7 @@ beautiful.useless_gap = 8.9
 
 --Autostart
 awful.spawn.with_shell("feh --bg-fill --randomize /home/drin/Scaricati/archlinux.png")
-awful.spawn.with_shell("./.config/polybar.old/polybar/polybar-themes/simple/docky/launch.sh")
+awful.spawn.with_shell("./.config/polybar/polybar/launch.sh")
 awful.spawn.with_shell("picom")
 
 
